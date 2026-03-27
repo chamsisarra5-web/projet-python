@@ -1,24 +1,36 @@
-# DM Python Data Science - Élection présidentielle 2022
+# DM Python Data Science — Élections
 
-Ce projet présente une analyse des résultats du premier tour de l'élection présidentielle 2022.
+Ce dépôt contient le travail réalisé pour le DM intermédiaire de Python Data Science.
 
-## Structure du dépôt
+L’objectif est d’explorer les résultats du premier tour de l’élection présidentielle française de 2022 à l’échelle communale et départementale à l’aide de Python.
 
-- `notebook/analyse_election.ipynb` : notebook principal d'analyse
-- `src/data_processing.py` : chargement et préparation des données
-- `src/analysis.py` : calcul des indicateurs
-- `src/visualization.py` : visualisations
-- `requirements.txt` : dépendances du projet
+## Contenu du dépôt
 
-## Travail réalisé
+- `notebook_dm.ipynb` : notebook principal contenant les analyses, tableaux et figures
+- `utils.py` : fonctions utilitaires utilisées pour les visualisations
+- `requirements.txt` : liste des bibliothèques nécessaires à l’exécution du projet
 
-- préparation des données
-- création de la variable candidat
-- calcul des scores nationaux
-- calcul des scores départementaux
-- calcul de la surreprésentation
-- visualisations graphiques
+## Bibliothèques utilisées
 
-## Source des données
+Ce projet mobilise notamment :
 
-Données publiques issues de data.gouv.fr
+- `pandas` pour la manipulation et l’analyse des données
+- `matplotlib` pour les graphiques
+- `great-tables` pour la mise en forme des tableaux
+- `cartiflette` et `geopandas` pour la cartographie
+
+## Reproductibilité
+
+Pour exécuter le projet, installer d’abord les dépendances :
+
+```bash
+pip install -r requirements.txt
+```
+
+Puis ouvrir le notebook Jupyter et exécuter l’ensemble des cellules (Run all).
+
+Remarque:
+
+Le notebook principal contient les réponses aux questions du DM.
+Certaines fonctions ont été placées dans utils.py afin d’alléger le notebook et de mieux séparer les calculs, les visualisations et la logique utilitaire.
+ 
