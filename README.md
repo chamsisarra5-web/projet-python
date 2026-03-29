@@ -1,4 +1,4 @@
-# DM Python Data Science — Élections
+# DM Python pour la Data Science — Élections
 
 Ce dépôt contient le travail réalisé pour le DM intermédiaire de Python Data Science.
 
@@ -7,7 +7,7 @@ L’objectif est d’explorer les résultats du premier tour de l’élection pr
 ## Contenu du dépôt
 
 - `notebook_dm.ipynb` : notebook principal contenant les analyses, tableaux et figures
-- `utils.py` : fonctions utilitaires utilisées pour les visualisations
+- `utils.py` : fonctions utilitaires utilisées pour les graphiques, la cartographie et certaines vérifications
 - `requirements.txt` : liste des bibliothèques nécessaires à l’exécution du projet
 
 ## Bibliothèques utilisées
