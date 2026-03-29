@@ -141,7 +141,7 @@ def carte_candidat(
         left_on=insee_dep_col,
         right_on="code_departement",
         how="left",
-        validate="1:1"
+        validate="m:1"
     )
 
     carte["surrepresentation_plot"] = carte["surrepresentation"].astype(float) * scale
