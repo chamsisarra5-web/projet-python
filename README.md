@@ -23,10 +23,14 @@ Ce projet mobilise notamment :
 
 Pour exécuter le projet, installer d’abord les dépendances :
 
+1-Se placer dans le dossier du projet :
+```bash
+cd projet-python
+```
+2-Installer les dépendances :
 ```bash
 pip install -r requirements.txt
 ```
-
 Puis ouvrir le notebook Jupyter et exécuter l’ensemble des cellules (Run all).
 
 Remarque:
